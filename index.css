@@ -1,0 +1,150 @@
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.background{
+    background-image: url('https://res.cloudinary.com/dd3py8vac/image/upload/v1730809088/banner1_ehxhuf.jpg');
+    background-size: cover;
+    height: 120vh;
+    color: aliceblue;
+
+}
+.main{
+    margin: 90px;
+    text-align: center;
+    color: aliceblue;
+}
+.head{
+    color:aliceblue;
+    padding: auto;
+    font-size: 20px;
+}
+.head1{
+    font-size: 100px;
+    margin: 10px;
+    padding: auto;
+}
+.para{
+    font-size: 30px; 
+    padding: auto;
+    margin: 10px;
+}
+.btn{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.535);
+    margin: 30px;
+    color:white;
+    border-width: 1px;
+    font-size: 30px;
+    width: 180px;
+}
+.box-img{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+
+}
+.colu{ 
+    border: 3px;
+    padding: auto;
+    border-color: blueviolet;
+    text-align: center;
+    margin: 10px;
+    margin-left: 40px;
+}
+.b1{
+    background-image: url('https://res.cloudinary.com/dd3py8vac/image/upload/v1730809083/4_uf3szf.jpg');
+    height: 630px;
+    width: 1000px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 450px;
+    color: aliceblue;
+}
+.b2{
+    background-image: url('https://res.cloudinary.com/dd3py8vac/image/upload/v1730809087/banner3_tstffs.jpg');
+    height: 300px;
+    width: 730px;
+    background-size: cover;
+    text-align: center;
+    padding: 150px;
+    color: aliceblue;
+}
+.b3{
+    background-image: url('https://res.cloudinary.com/dd3py8vac/image/upload/v1730809087/3_kl6xa3.jpg');
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    text-align: center;
+    padding: 150px;
+    color: aliceblue;
+}
+.b4{
+    background-image: url('https://res.cloudinary.com/dd3py8vac/image/upload/v1730809090/banner4_yullse.jpg');
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    text-align: center;
+    padding: 150px;
+    color: aliceblue;
+}
+.b1:hover{
+    animation-name: enlarge;
+    animation-duration: 20s;
+}
+.b2:hover{
+    animation-name: enlarge;
+    animation-duration: 20s;
+}
+.b3:hover{
+    animation-name: enlarge;
+    animation-duration: 20s;
+}
+.b4:hover{
+    animation-name: enlarge;
+    animation-duration: 20s;
+}
+@keyframes enlarge {
+    0%{
+        scale: 1.05;
+    }
+    
+}
+.groom{
+    font-size: 30px;
+    color: aliceblue;
+    padding: 10px;
+    background-image: linear-gradient(rgb(229, 151, 6),rgb(255, 196, 0));
+}
+.btn2{
+    background-color: rgb(255, 253, 240);
+    border-width: 1px;
+    border-radius: 5px;
+    padding:10px;
+    width:300px;
+    border-color:white;
+    color:rgb(224, 170, 62);
+}
+.bottom{
+    background-color: black;
+    text-align: center;
+}
+.img3{
+    width: 500px;
+    transition: rotate(180deg);
+}
+.why{
+    padding: 40px;
+    padding-top: 150px;
+    background-color: rgb(230, 230, 230);
+}
+.why-block{
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+}
+.logo:hover{
+    animation-name: enlarge;
+    animation-duration: 20s;
+}
